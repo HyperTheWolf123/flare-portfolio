@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Flare's Roblox and anime video editing portfolio. Watch Basketball Zero and browse selected edits.">
+  <title>Flare | Roblox & Anime Video Editor</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/fonts/BarlowCondensed-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap" id="home">
+    <a class="brand" href="#home" aria-label="Flare, home">
+      <span class="wordmark">Flare<span aria-hidden="true">.</span></span>
+      <span class="brand-note">Video editor / Roblox & anime</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">+</span></button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#home" aria-current="location">Home</a>
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-kicker">Roblox & anime video editing</p>
+        <h1 id="hero-title">Every frame<br>has a<br><span>purpose.</span></h1>
+        <p class="hero-description">The world of Roblox. The energy of anime.<br>Edits by Flare.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#works">Watch selected work</a>
+          <a class="text-link" href="#about">About Flare</a>
+        </div>
+      </div>
+      <section class="featured" aria-labelledby="featured-title">
+        <p class="section-label featured-label">Featured edit / Roblox</p>
+        <a class="featured-link" href="#works" aria-label="Watch Basketball Zero in selected work">
+          <img src="assets/images/roblox-edit-01.png" width="1933" height="1080" alt="Roblox basketball character holding a ball in Basketball Zero" fetchpriority="high">
+          <div class="featured-caption">
+            <h2 id="featured-title">Basketball Zero</h2>
+            <span>Watch edit <span aria-hidden="true">↗</span></span>
+          </div>
+        </a>
+      </section>
+    </section>
+
+    <section class="works section" id="works" aria-labelledby="works-title">
+      <div class="section-heading">
+        <div><p class="section-label">The portfolio</p><h2 class="display-heading" id="works-title">Selected work</h2></div>
+        <div class="filters" role="group" aria-label="Filter projects" hidden>
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="roblox" aria-pressed="false">Roblox</button>
+          <button type="button" data-filter="anime" aria-pressed="false">Anime</button>
+        </div>
+      </div>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+      <div class="project-groups" id="project-grid">
+        <section class="project-group" data-category="roblox" aria-labelledby="roblox-title">
+          <h3 class="category-heading" id="roblox-title">Roblox</h3>
+          <div class="project-grid"></div>
+        </section>
+        <section class="project-group" data-category="anime" aria-labelledby="anime-title">
+          <h3 class="category-heading" id="anime-title">Anime</h3>
+          <div class="project-grid"></div>
+        </section>
+      </div>
+      <p class="empty-gallery" id="empty-gallery" hidden>No edits published in this category yet. Choose another filter to see available work.</p>
+      <noscript><p class="notice">Enable JavaScript to browse and filter projects, or <a href="assets/videos/basketball-zero.mp4">watch Basketball Zero directly</a>.</p></noscript>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <h2 class="section-label" id="about-title">About Flare</h2>
+      <div class="about-copy">
+        <h3 class="display-heading">The cut<br>comes first.</h3>
+        <p class="about-intro">Flare is a video editor focused on Roblox and anime. This is a space for the edits, starting with Basketball Zero.</p>
+        <p class="about-note">Watch the full edit above, with playback controls to pause, replay, or take a closer look.</p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <p class="section-label">Contact & commissions</p>
+      <div class="contact-layout">
+        <div><h2 class="display-heading" id="contact-title">Have a cut<br>in mind?</h2><p class="contact-description">Start with your idea, references, format, and deadline. Contact details will be added here.</p></div>
+        <dl class="contact-list">
+          <!-- TODO: Replace visible placeholders with your real email and Discord details. See README.md. -->
+          <div>
+  <dt>Email</dt>
+  <dd>
+    <a class="contact-email" href="mailto:robloxeguy444@gmail.com">
+      robloxeguy444@gmail.com ↗
+    </a>
+  </dd>
+</div>
+          <div>
+  <dt>Discord</dt>
+  <dd>
+    <a
+      href="https://discord.com/users/709399362278785126"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="discord-link"
+    >
+      <span>Flareify</span>
+      <span class="discord-arrow">↗</span>
+    </a>
+  </dd>
+</div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <div><span class="wordmark">Flare.</span><p>Roblox & anime video editing</p></div>
+    <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>

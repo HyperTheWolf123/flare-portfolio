@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#19191f"/>
+  <path d="M0 0h1600v900H0z" fill="none" stroke="#39393f" stroke-width="4"/>
+  <path d="M1568 0h32v900h-32z" fill="#e63748"/>
+  <text x="120" y="420" fill="#e9e8e4" font-family="Arial,sans-serif" font-size="104" font-weight="700">VIDEO PREVIEW</text>
+  <path d="M120 530h1280" stroke="#77777f" stroke-width="2"/>
+  <text x="120" y="610" fill="#a8a8b3" font-family="Arial,sans-serif" font-size="34" letter-spacing="3">PLACEHOLDER POSTER</text>
+</svg>
