@@ -7,7 +7,7 @@ const projects = [
   { id: "roblox-3", title: "Grow A Mushroom", category: "roblox", slate: "R / 03", src: "assets/videos/quality_restoration_20261016155805925.mp4", poster: "assets/images/Screenshot (8832).png", aspect: "landscape", captions: "" },
   { id: "anime-1", title: "Frieren: Beyond Journey's End", category: "anime", slate: "A / 01", src: "assets/videos/videoplayback (3).mp4", poster: "assets/images/Frieren.jpg", aspect: "landscape", captions: "" },
   { id: "anime-2", title: "Jujutsu Kaisen: The Honored One", category: "anime", slate: "A / 02", src: "assets/videos/Gojo - My Eyes [Edit_AMV] Alight motion [Best (1080p)].mp4", poster: "assets/images/gojo.png", aspect: "landscape", captions: "" },
-  { id: "anime-3", title: "Naruto", category: "anime", slate: "A / 03", src: "assets/videos/itachi.mp4", poster: "assets/images/itachi.png", aspect: "landscape", captions: "" }
+  { id: "anime-3", title: "Naruto", category: "anime", slate: "A / 03", src: "assets/videos/itachi-web.mp4", poster: "assets/images/itachi.png", aspect: "landscape", captions: "" }
 ];
 
 const allPlayers = new Set();
